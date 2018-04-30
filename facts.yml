@@ -63,7 +63,7 @@
 # SHCluster facts
 - uri: /services/shcluster/captain/info
   facts:
-    elected_captain_time: "$.entry[0].content."
+    elected_captain_time: "$.entry[0].content.elected_captain"
     label: "$.entry[0].content.label"
     maintenance_mode: "$.entry[0].content.maintenance_mode"
     captain_uri: "$.entry[0].content.peer_scheme_host_port"
